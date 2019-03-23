@@ -23,11 +23,26 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+  http: any
+  transparent_image: any
+  flutter_villains: any
+  share: any
+  flutter_custom_tabs: any
+  newsapi_client: any
+  flutter_sparkline: any
+  shared_preferences: any
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: ^0.7.0
 
+flutter_icons:
+  image_path: assets/icons/icon-710.png
+  android: true
+  ios: true
+  adaptive_icon_background: assets/icons/icon-background.png
+  adaptive_icon_foreground: assets/icons/icon-foreground.png
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
@@ -70,3 +85,17 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.io/custom-fonts/#from-packages
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/OpenSans-Light.ttf
+          weight: 300
+        - asset: assets/fonts/OpenSans-SemiBold.ttf
+          weight: 500
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 600
+        - asset: assets/fonts/OpenSans-ExtraBold.ttf
+          weight: 700
